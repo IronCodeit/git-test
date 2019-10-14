@@ -1,0 +1,419 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+h1, h2, h4, p {
+	margin: 0;
+}
+
+span {
+	font-weight: 700;
+}
+
+.container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #4b73b5;
+	margin-bottom: 13px;
+}
+
+.header__container {
+	height: 77px;
+	position: relative;
+}
+
+.header__container .logo {
+	position: absolute;
+	top: 21px;
+	left: 0px;
+}
+
+.contacts {
+	position: absolute;
+	top: 17px;
+	right: 21px;
+	text-align: right;
+}
+
+.contacts__phone {
+	font-size: 21px;
+	font-weight: 700;
+	color: #fff;
+	display: block;
+	margin-bottom: 2px;
+}
+
+.contacts__hours {
+	font-size: 14px;
+}
+
+.contacts__list {
+	text-decoration: underline;
+	font-size: 14px;
+	font-weight: 700;
+	opacity: 0.7;
+	color: #fff;
+}
+
+.contacts__item {
+	display: none;
+}
+
+.sidebar,
+.main-content {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.sidebar {
+	width: 11%;
+	margin-right: 56px;
+	padding-top: 31px;
+}
+
+.main-content {
+	width: 81%;
+}
+
+.nav__list {
+	padding: 0;
+}
+
+.nav__link {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	color: #4b73b5;
+	letter-spacing: 2.4px;
+}
+
+.nav__link:hover {
+	color: #000;
+}
+
+.nav__item--active .nav__link {
+	color: #000;
+}
+
+.nav__link:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 21px;
+	margin-right: 16px;
+	background: center center / contain no-repeat; 
+}
+
+.nav__link--icon--main:before {
+	background-image: url(../img/main_icon.png);
+}
+
+.nav__link--icon--feed:before {
+	background-image: url(../img/feed_icon.png);
+}
+
+.nav__link--icon--team:before {
+	background-image: url(../img/team_icon.png);
+}
+
+.nav__item {
+	margin-bottom: 26px;
+}
+
+.nav__item:last-child {
+	margin-bottom: 0;
+}
+
+.air__airlines-img {
+	display: block;
+}
+
+.air {
+	margin-bottom: 6px;
+}
+
+.title {
+	font-size: 49px;
+	color: #221f1f;
+	font-weight: 700;
+	margin: 0;
+	letter-spacing: -0.3px;
+}
+
+.tittle--top {
+	margin-bottom: 24px;
+}
+
+.tittle--bottom {
+	margin-bottom: 68px;
+	letter-spacing: -0.1px;
+}
+
+.rates__subtitle {
+	color: #212121;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.88px;
+	margin-bottom: 15px;
+}
+
+.rates__item {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 204px;
+	padding: 41px 24px 48px;
+	margin-right: 12px;
+}
+
+.rates__desc {
+	line-height: 13px;
+}
+
+.rates__inner-list {
+	text-align: left;
+	list-style-position: inside;
+	margin-bottom: 18px;
+}
+
+.rates__inner-item {
+	list-style-type: disc;
+	line-height: 33px;
+	color: #221f1f;
+}
+
+.rates__text,
+.rates__inner-list {
+	color: #221f1f;
+	font-size: 18px;
+}
+
+.rates__text {
+	line-height: 32px;
+	margin-bottom: 3px;
+}
+
+.rates__price {
+	color: #212121;
+	font-size: 54px;
+	font-weight: 400;
+	letter-spacing: -1.07px;
+}
+
+.rates__pic {
+	margin-bottom: 29px;
+}
+
+.rates__item--active {
+	border: 1px solid #ebecef;
+	border-radius: 7px;
+}
+
+.rates {
+	margin-bottom: 33px;
+}
+
+.cent {
+	font-size: 35px;
+}
+
+.last-news__pic,
+.last-news__disc {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.last-news__pic {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 14px;
+}
+
+.last-news__disc {
+	width: 640px;
+}
+
+.last-news__item {
+	margin: 0px 56px 25px 0px;
+	padding-bottom: 24px;
+	border-bottom: 2px solid #f5f5f5;
+}
+
+.last-news__item:last-child {
+	border-bottom: 0;
+}
+
+.last-news__date {
+	color: #b5b5b5;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+.last-news__subtitle {
+	font-weight: 700;
+	margin-bottom: 11px;
+	letter-spacing: 1.2px;
+}
+
+.last-news__message {
+	line-height: 30px;
+}
+
+.last-news {
+	margin-bottom: 28px;
+}
+
+.pagination {
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.pagination__display {
+	color: #656464;
+	font-size: 14px;
+	margin-right: 43px;
+}
+
+.pagination__btn-before,
+.pagination__btn-after {
+	text-decoration: none;
+}
+
+.pagination__display,
+.pagination__btn-before,
+.pagination__list,
+.pagination__btn-after,
+.pagination__item,
+.pagination__paper {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.pagination__btn-before,
+.pagination__item {
+	margin-right: 8px;
+}
+
+.pagination__link {
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	color: #221f1f;
+	vertical-align: top;
+}
+
+.pagination__item--active .pagination__link {
+	width: 25px;
+	line-height: 25px;
+	background-color: #4b73b5;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.footer {
+	background: #4b73b5;
+	color: #fff;
+}
+
+.footer__container {
+	height: 77px;
+	position: relative;
+}
+
+.footer__desc {
+	position: absolute;
+	top: 12px;
+	left: 19px;
+	font-size: 14px;
+	width: 233px;
+	line-height: 18px;
+}
+
+.footer__desc-link {
+	color: #fff;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.footer__desc p {
+	margin: 0;
+}
+
+.footer__container .logo {
+	position: absolute;
+	top: 20px;
+	left: 469px;
+}
+
+.socials {
+	position: absolute;
+	top: 17px;
+	right: 20px;
+}
+
+.socials__desk {
+	margin-bottom: 7px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.socials__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+.socials__item:last-child {
+	margin-right: 0;
+}
+
+.socials__link {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: center center no-repeat;
+}
+
+.socials__link--icon--vk {
+	background-image: url(../img/vk.png);
+}
+
+.socials__link--icon--fb {
+	background-image: url(../img/fb.png);
+}
+
+.socials__link--icon--gl {
+	background-image: url(../img/gl.png);
+}
+
+.socials__link--icon--tw {
+	background-image: url(../img/tw.png);
+}
+
+.socials__link--icon--gm {
+	background-image: url(../img/gm.png);
+}
+
