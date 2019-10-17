@@ -201,6 +201,12 @@ span {
 	margin-right: 12px;
 }
 
+.rates__item:hover {
+	border: 1px solid #ebecef;
+	border-radius: 7px;
+	transition-duration: ;
+}
+
 .rates__item:last-child {
 		margin-right: 0;
 }
@@ -237,11 +243,6 @@ span {
 	font-size: 54px;
 	font-weight: 400;
 	letter-spacing: -1.07px;
-}
-
-.rates__item--active {
-	border: 1px solid #ebecef;
-	border-radius: 7px;
 }
 
 .rates {
@@ -402,10 +403,13 @@ span {
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 6px;
-	width: 20px;
-	height: 20px;
 	border-radius: 50%;
+	background: #d2def3;
+}
+
+.socials__item:hover {
 	background: #fff;
+	transition-duration: .3s;
 }
 
 .socials__item:last-child {
