@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
-	<title>First Page</title>
+	<title>First</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 	<div class="wrapper">
 		<header class="header">
@@ -24,8 +22,8 @@
 						</ul>
 					</nav>
 				</div>
-			</header>
-		</div>
+			</div>
+		</header>
 		<div class="page-content">
 			<div class="container">
 				<aside class="sidebar">
@@ -43,15 +41,17 @@
 						</ul>
 					</nav>
 				</aside>
-				<div class="main-content">
+				<main class="main-content">
 					<div class="air">
 						<img src="img/Photo.jpg" alt="sky" class="air__airlines-img">
 					</div>
-					<div class="rates">
+					<section class="rates">
 						<h2 class="title tittle--top">Тарифы</h2>
 						<ul class="rates__list">
 							<li class="rates__item">
-								<img src="img/standard.png" alt="standard" class="rates__pic">
+								<div class="rates__box">
+									<img src="img/standart.png" alt="standard" class="rates__pic">
+								</div>
 								<div class="rates__desc">
 									<h4 class="rates__subtitle">СТАНДАРТ</h4>
 									<p class="rates__text">Создан для вашего комфортного отдыха</p>
@@ -63,8 +63,10 @@
 								</div>
 								<div class="rates__price"><span class="cent">&#36;</span>19</div>
 							</li>
-							<li class="rates__item rates__item--active">
-								<img src="img/premium.png" alt="premium" class="rates__pic">
+							<li class="rates__item">
+								<div class="rates__box">
+									<img src="img/premium.png" alt="premium" class="rates__pic">
+								</div>
 								<div class="rates__desc">
 									<h4 class="rates__subtitle">ПРЕМИУМ</h4>
 									<p class="rates__text">Для любителей хороших впечатлений</p>
@@ -77,7 +79,9 @@
 								<div class="rates__price"><span class="cent">&#36;</span>39</div>
 							</li>
 							<li class="rates__item">
-								<img src="img/luxury.png" alt="luxury" class="rates__pic">
+								<div class="rates__box">
+									<img src="img/luxury.png" alt="luxury" class="rates__pic">
+								</div>
 								<div class="rates__desc">
 									<h4 class="rates__subtitle">ЛАКШЕРИ</h4>
 									<p class="rates__text">Всё самое лучшее и незабываемое</p>
@@ -90,8 +94,8 @@
 								<div class="rates__price"><span class="cent">&#36;</span>99</div>
 							</li>
 						</ul>
-					</div>
-					<div class="last-news">
+					</section>
+					<section class="last-news">
 						<h2 class="title tittle--bottom">Последние новости</h2>
 						<ul class="last-news__list">
 							<li class="last-news__item">
@@ -119,7 +123,7 @@
 								</div>
 							</li>
 						</ul>
-					</div>
+					</section>
 					<div class="pagination">
 						<div class="pagination__display">Страница 1 из 7</div>
 						<div class="pagination__paper">
@@ -150,7 +154,7 @@
 							<a href="#" class="pagination__btn-after">&gt;</a>
 						</div>
 					</div>
-				</div>
+				</main>
 			</div>
 		</div>
 		<footer class="footer">
